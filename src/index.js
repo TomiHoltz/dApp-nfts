@@ -12,7 +12,7 @@ ReactDOM.render(
       <ChakraProvider>
         <Web3ReactProvider getLibrary={getLibrary}>
           <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="*" element={<App />} />
           </Routes>
         </Web3ReactProvider>
       </ChakraProvider>
